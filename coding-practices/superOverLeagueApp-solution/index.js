@@ -1,5 +1,4 @@
 const element = (
-  //   Write your code here.
   <div className="super-over-league-container">
     <h1 className="heading">Super Over League</h1>
     <div className="teams-container">
@@ -13,6 +12,6 @@ const element = (
       />
     </div>
   </div>
-);
+)
 
-ReactDOM.render(element, document.getElementById("root"));
+ReactDOM.render(element, document.getElementById('root'))
