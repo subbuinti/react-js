@@ -1,5 +1,4 @@
-const rootElement = document.getElementById("root");
-const element = document.createElement("h1");
-element.textContent = "Hello World!";
-element.classList.add("greeting");
-rootElement.appendChild(element);
+const elementProps = { className: "greeting", children: "Hello world!" };
+const elementType = "h1";
+const element = React.createElement(elementType, elementProps);
+ReactDOM.render(element, document.getElementById("root"));
